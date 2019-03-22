@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color:black;
+}
+.imgdiv {
+    width:100%;
+    height:calc(100vh);
+    display: block;
+    position: relative;
+}
+#div1 {
+    background-image: url(1.jpg);
+    background-size: 100% 100%;
+}
+#div2 {
+    background-image: url(2.jpg);
+    background-size: 100% 100%;
+}
+#div3 {
+    background-image: url(3.jpg);
+    background-size: 100% 100%;
+}
+#div4 {
+    background-image: url(4.jpg);
+    background-size: 100% 100%;
+}
+#div5 {
+    background-image: url(5.jpg);
+    background-size: 100% 100%;
+}
+#div6 {
+    background-image: url(6.jpg);
+    background-size: 100% 100%;
+}
+#div7 {
+    background-image: url(7.jpg);
+    background-size: 100% 100%;
+}
+#div8_1 {
+    background-image: url(8-1.jpg);
+    background-size: 100% 100%;
+}
+.clickScroll {
+    display: block;
+    background-color:white;
+    position:absolute;
+    width:100%;
+    height:calc(20vh);
+    bottom:0px;
+    opacity:0;
+}
+#dianJiChaKanHeZuoBanKuai {
+    display: block;
+    background-color:white;
+    position:absolute;
+    width:100%;
+    height:calc(10vh);
+    bottom:calc(20vh);
+    opacity:0;
+}
+#dianJiBaoMing {
+    display: block;
+    background-color:white;
+    position:absolute;
+    width:100%;
+    height:calc(10vh);
+    bottom:calc(26vh);
+    opacity:0;
+}
+.popup {
+    width: 100%;
+    height: calc(100vh);
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    display: none;
+}
+#div8_2 {
+    background-image: url(8-2.jpg);
+    background-size: 100% 100%;
+}
+#heZuoBanKuai {
+    display: block;
+    background-color:white;
+    position:absolute;
+    width:100%;
+    height:calc(6vh);
+    bottom:calc(64vh);
+    opacity:0;
+}
+#guanBiHeZuoBanKuai {
+    display: block;
+    background-color:white;
+    position:absolute;
+    width:100%;
+    height:calc(28vh);
+    bottom:calc(36vh);
+    opacity:0;
+}
